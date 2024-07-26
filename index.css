@@ -1,0 +1,134 @@
+.Ist{
+    background-color: aqua;
+    height: 100px;
+    display: inline;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.card1{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    color: azure;
+}
+
+.card2{
+    background-color:blue;
+    height: 50px;
+    width: 50px;
+  
+}
+
+.card3{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+.container h1 {
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+    transition: all ease-in-out 1s;
+
+}
+
+.container h1:hover {
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(to right, orange, red, green, yellow);
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Third{
+    background-color: black;
+    color: aqua;
+
+}
+
+div.a{
+   width: 150px;
+   height: 100px;
+   background-color: orange;
+   -ms-transform: rotate(30deg);
+   transform: rotate(30deg);
+
+}
+
+div.b{
+    width: 150px;
+    height: 100px;
+    background-color:lightgreen;
+    -ms-transform: skewY(30deg);
+    transform: skewY(30deg);
+    
+ }
+
+ div.c{
+    width: 150px;
+    height: 100px;
+    background-color:lightgray;
+    -ms-transform: scaleY(30deg);
+    transform: scaleY(30deg);
+    
+ }
+ .container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    grid-template-rows: auto auto ;
+    row-gap: 10px;
+    background-color: #e61212;
+    padding: 5px;
+}
+
+.item {
+    background-color: #a0e998cc;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div p {
+    background: yellowgreen;
+
+}
+
+div>p {
+    background: salmon;
+
+}
+
+div+p {
+    background-color: rgb(196, 255, 196);
+   
+}
+
+div~h2 {
+    background: blue;
+
+}
+
+::marker{
+    color: blue;
+}
+
+p:nth-child(even){
+    background-color: rgb(31, 238, 12);
+}
+
+
+
+
+
+
